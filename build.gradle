@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.dartagnou'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    testCompile group: 'org.spigotmc', name: 'spigot', version: '1.12.2-R0.1-SNAPSHOT'
+}

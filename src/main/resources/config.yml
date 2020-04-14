@@ -1,0 +1,7 @@
+game:
+  #    /\                                                                       /\   #
+  #  / ! \ Be careful if you don't put a number, it could crash the server.   / ! \  #
+  #  -----                                                                    -----  #
+  time_to_start: 10
+  # The plugin replaces %time% with the number of remaining seconds #
+  start_message: The game start in %time% !
