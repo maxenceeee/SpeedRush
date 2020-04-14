@@ -21,7 +21,7 @@ public class SRPlayer {
         if (!offPlayer.isOnline())
             return offPlayer.getName();
 
-        return this.player.getDisplayName();
+        return offPlayer.getPlayer().getDisplayName();
     }
 
     public void sendMessage(String... messages) {
