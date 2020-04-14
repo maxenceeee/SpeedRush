@@ -12,7 +12,7 @@ public interface ITeam {
 
     String getID();
 
-    DyeColor blockColor();
+    DyeColor getBlockColor();
 
     Set<SRPlayer> getPlayers();
 
